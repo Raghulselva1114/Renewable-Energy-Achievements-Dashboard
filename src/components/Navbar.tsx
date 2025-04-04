@@ -3,6 +3,7 @@ import { Menu, X,  } from 'lucide-react';
 import HomePageImg from "../assets/Energy Consortium.webp"
 import '../style/navbar.css'
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,7 +20,8 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-blue-900">Dashboard</a>
+          
+            <a href="Dashboard" className="text-gray-700 hover:text-blue-900">Dashboard</a>
             <a href="#" className="text-gray-700 hover:text-blue-900">Analytics</a>
             <a href="#" className="text-gray-700 hover:text-blue-900">Reports</a>
             <a href="#" className="text-gray-700 hover:text-blue-900">Settings</a>
